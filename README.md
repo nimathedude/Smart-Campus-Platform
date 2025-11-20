@@ -49,4 +49,3 @@ This project follows a microservices architecture with the following services:
 ## Documentation
 
 See the `docs/` directory for detailed documentation.
-
