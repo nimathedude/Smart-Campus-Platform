@@ -15,32 +15,36 @@ This project follows a microservices architecture with the following services:
 - Shuttle Tracking Service
 
 ## Getting Started
+# فاز ۱ — وظایف تیم‌ها
 
-فاز ۱)
-مسئولیت‌ها:
-طراحی C4 diagrams (Context, Container, Component) برای کل سیستم
-نوشتن تصمیمات اصلی معماری (ADRs)
-طراحی APIهای اصلی سرویس‌ها
-هماهنگی بین تیم‌ها این تیم برای تحویل هفته ۱ و ۲ ضروری است.
-🟩 تیم 2 — Database & Multi-Tenancy (Schema-per-Tenant)
-مسئولیت‌ها:
-طراحی مدل داده‌ها + ERD
-تصمیم‌گیری درباره multi-tenancy
-طراحی ساختار migrationها
-نوشتن مستند دیتابیس
-🟨 تیم 3 — Backend Microservices (Auth, Resource, Booking, Marketplace)
-مسئولیت‌ها:
-پیاده‌سازی اسکلت اصلی سرویس‌ها
-اتصال به RabbitMQ
-پیاده‌سازی Saga برای Marketplace
-جلوگیری از Overbooking
-🟧 تیم 4 — Infra & Messaging (RabbitMQ, Redis, Docker, Monitoring)
-مسئولیت‌ها:
-تنظیمات RabbitMQ (Exchanges, Queues)
-تنظیمات Redis برای caching
-Prometheus، Grafana
-Docker-compose کامل پروژه
+## 🟦 تیم 1 — Architecture & API
+**مسئولیت‌ها:**
+- طراحی C4 diagrams (Context, Container, Component) برای کل سیستم
+- نوشتن تصمیمات اصلی معماری (ADRs)
+- طراحی APIهای اصلی سرویس‌ها
+- هماهنگی بین تیم‌ها  
+> این تیم برای تحویل هفته ۱ و ۲ ضروری است.
 
+## 🟩 تیم 2 — Database & Multi-Tenancy (Schema-per-Tenant)
+**مسئولیت‌ها:**
+- طراحی مدل داده‌ها و ERD
+- تصمیم‌گیری درباره multi-tenancy
+- طراحی ساختار migrationها
+- نوشتن مستند دیتابیس
+
+## 🟨 تیم 3 — Backend Microservices (Auth, Resource, Booking, Marketplace)
+**مسئولیت‌ها:**
+- پیاده‌سازی اسکلت اصلی سرویس‌ها
+- اتصال به RabbitMQ
+- پیاده‌سازی Saga برای Marketplace
+- جلوگیری از Overbooking
+
+## 🟧 تیم 4 — Infra & Messaging (RabbitMQ, Redis, Docker, Monitoring)
+**مسئولیت‌ها:**
+- تنظیمات RabbitMQ (Exchanges, Queues)
+- تنظیمات Redis برای caching
+- Prometheus و Grafana
+- Docker-compose کامل پروژه
 
 ## Documentation
 
