@@ -1,4 +1,5 @@
-# Smart Campus Platform
+# Smart Campus Platform 
+https://shalasinc.github.io/
 
 <table>
   <tr>
